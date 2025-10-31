@@ -10,13 +10,10 @@ class Solution {
             if (index>max_index){
                 max_index=index;
             }
-            System.out.println(max_index);
-            if (max_index>=nums.length-1){
-                return true;
-            }
+            
             
         }
-        return false ;
+        return true;
          
 
         
